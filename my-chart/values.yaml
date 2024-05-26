@@ -1,0 +1,11 @@
+namespace:
+  name: my-namespace
+
+deployment:
+  replicas: 2
+  containerName: my-container
+  image: nginx:latest
+  containerPort: 80
+
+service:
+  port: 80
